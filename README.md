@@ -1,5 +1,5 @@
 # Universality tasks - Junior Python Dev - HCL
-## Zad. 1.
+## Task 1.
 Write a program that reads a number x and a positive integer n from the standard input and prints out x, 2x, ..., (n-1)x, nx to the standard output.
 
 Consider the edge cases, e.g. n=1.
@@ -19,7 +19,7 @@ Output:\
 30\
 45
 
-## Zad. 2.
+## Task 2.
 Write a program that reads from the standard input and will return the:
 
 sum
@@ -50,7 +50,7 @@ Output:\
 -3\
 24
 
-## Zad. 3.
+## Task 3.
 Write a class called Circle and implement methods given in the example below. A Circle is defined by its center and radius. Use the ValueError exception to handle incorrect data.
 
 If needed, implement a class Point, which represents a point in 2-D space.
@@ -80,3 +80,17 @@ Output:\
 10 0 0\
 1 1
 
+## Task 4.
+Write a program that will (using regex) filter a file named atoms.txt so that only lines concerning a successful experiment remain. For example lines such as:
+
+RUN 000039 COMPLETED. OUTPUT IN FILE yttrium.dat. 1 UNDERFLOW WARNING.
+
+or
+
+RUN 000058 COMPLETED. OUTPUT IN FILE cerium.dat. ALGORITHM DID NOT CONVERGE AFTER 100000 ITERATIONS.
+
+should be discarded. You can assume every line in the file matches the scheme given below:
+
+RUN [[NUMER Z DOKŁADNIE 6 CYFR]] COMPLETED. OUTPUT IN FILE [[NAZWA]].dat. [[COKOLWIEK]]
+
+## Task 5.
