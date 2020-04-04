@@ -94,3 +94,6 @@ should be discarded. You can assume every line in the file matches the scheme gi
 RUN [[NUMER Z DOKŁADNIE 6 CYFR]] COMPLETED. OUTPUT IN FILE [[NAZWA]].dat. [[COKOLWIEK]]
 
 ## Task 5.
+Write a function decorator called *accepts* that checks whether a function was called with correct argument types.
+
+## Task6.
