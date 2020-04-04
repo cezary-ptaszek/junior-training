@@ -97,3 +97,4 @@ RUN [[NUMER Z DOKŁADNIE 6 CYFR]] COMPLETED. OUTPUT IN FILE [[NAZWA]].dat. [[COK
 Write a function decorator called *accepts* that checks whether a function was called with correct argument types.
 
 ## Task6.
+Write a function decorator that will perform composition on a given function *n* times, where *n* is a parameter of the decorator.
