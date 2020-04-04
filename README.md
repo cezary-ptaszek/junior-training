@@ -50,3 +50,33 @@ Output:\
 -3\
 24
 
+## Zad. 3.
+Write a class called Circle and implement methods given in the example below. A Circle is defined by its center and radius. Use the ValueError exception to handle incorrect data.
+
+If needed, implement a class Point, which represents a point in 2-D space.
+
+Input
+integer r denoting the radius of circle1
+space separated integers x and y denoting the center of circle1
+integer r denoting the radius of circle2
+space separated integers x and y denoting the center of circle2
+space separated integers x1 and y1 denoting a shift of the center of circle1
+Output
+Three lines:
+
+area of circle1 rounded down to the nearest integer
+radius and center coordinates of the smallest circle containing both circle1 and circle2
+center of circle1 shifted by (x1, x2)\
+Example\
+Input:\
+10\
+0 0\
+5\
+0 0\
+1 1
+
+Output:\
+314\
+10 0 0\
+1 1
+
