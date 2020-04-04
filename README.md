@@ -18,3 +18,35 @@ Output:\
 15\
 30\
 45
+
+## Zad. 2.
+Write a program that reads from the standard input and will return the:
+
+sum
+difference
+product
+of all elements in the given list.
+
+Input
+An integer n (1 <= n <= 500) that denotes the number of elements in the list. The following n integers are the next elements of the list.
+
+Output
+Three integers:
+
+sum
+difference
+product
+of all the elements of the list.
+
+Example\
+Input:\
+3\
+4\
+1\
+6
+
+Output:\
+11\
+-3\
+24
+
